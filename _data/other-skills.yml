@@ -1,0 +1,11 @@
+- name: Unity
+  percentage: 90
+  color: info
+
+- name: Docker
+  percentage: 70
+  color: success
+
+- name: Blender
+  percentage: 65
+  color: warning

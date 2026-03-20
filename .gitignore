@@ -1,5 +1,9 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+# Ruby Gems
+*.gem
+
+# Design Files
+*.psd
+*.ai
+
+#Added
 .DS_Store
