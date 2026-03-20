@@ -28,10 +28,10 @@
   <title>Blog</title>
   <meta name="description" content="I turn code into fun, this is my portfolio site, so check out my projects!">
 
-  <link rel="shortcut icon" type="image/x-icon" href="/publicWebsite/assets/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
   <!-- Theme style -->
-  <script src="/publicWebsite/assets/js/theme.js"></script>
+  <script src="/assets/js/theme.js"></script>
 
   <!-- Font Awesome CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
@@ -43,7 +43,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="/publicWebsite/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
 
 </head>
 
@@ -53,18 +53,18 @@
   <main class="flex-shrink-0 container mt-5">
     <nav class="navbar navbar-expand-lg navbar-themed">
 
-  <a class="navbar-brand" href="/publicWebsite//"><h5><b>Sam Canonaco</b></h5></a>
+  <a class="navbar-brand" href="/"><h5><b>Sam Canonaco</b></h5></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-1x fa-bars text-themed"></i>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/publicWebsite/projects/">Projects</a>
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
 
-      <a class="nav-item nav-link active" href="/publicWebsite/blog/">Blog</a>
+      <a class="nav-item nav-link active" href="/blog/">Blog</a>
 
-      <a class="nav-item nav-link " href="/publicWebsite/about/">About</a>
+      <a class="nav-item nav-link " href="/about/">About</a>
 
       
 
@@ -82,7 +82,7 @@
       <i class="fas fa-search"></i>
     </span>
   </div>
-  <button class="btn btn-outline-primary ml-1" onclick="location.href = '/publicWebsite/blog/tags';">
+  <button class="btn btn-outline-primary ml-1" onclick="location.href = '/blog/tags';">
     <i class="fas fa-tags"></i>
   </button>
 </div>
@@ -95,11 +95,41 @@
         resultsContainer: document.getElementById('results-container'),
         searchResultTemplate: '<a href="{url}" class="list-group-item list-group-item-action">{title}</a>',
         noResultsText: '<li class="list-group-item list-group-item-action disabled">No results found</li>',
-        json: '/publicWebsite/search.json'
+        json: '/search.json'
       })
 </script>
 <div class="card-group mt-2">
 
+  
+    <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s">
+  <a href="/blog/on-comics" class="post card border border-">
+    <div class="card-body text-themed">
+      <h3 class="card-title">On Comics</h3>
+      <p class="card-text">
+        
+      </p>
+      <p class="card-text"><p>Hello again. I’m writing this blog entry near the start of my very busy reading week. Today I spent a lot of time getting caught<small><i>  read more...</i></small></p>
+    </div>
+    <div class="card-footer text-themed">
+      12 October 2021
+    </div>
+  </a>
+</div>
+  
+    <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s">
+  <a href="/blog/intro" class="post card border border-">
+    <div class="card-body text-themed">
+      <h3 class="card-title">Intro</h3>
+      <p class="card-text">
+        
+      </p>
+      <p class="card-text"><p>I think it’s time for me to make the blog template I’ve had on my GitHub Pages into an actual blog. We have been using<small><i>  read more...</i></small></p>
+    </div>
+    <div class="card-footer text-themed">
+      26 September 2021
+    </div>
+  </a>
+</div>
   
   
 </div>
