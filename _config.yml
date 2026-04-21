@@ -1,8 +1,10 @@
 ### Site Settings ###
 title               : Sam Canonaco
 description         : >-
-                      This site is currently a work in progress.
-                      I'm excited to share my projects with you!
+                      Game Designer <br>
+                      Software Developer <br>
+                      Maker <br>
+                      Check out my projects!
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : agentsamx/agentsamx.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -18,7 +20,8 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-
+  - pages/blog.html
+  
 ### Author Info ###
 author:
   name              : Sam Canonaco

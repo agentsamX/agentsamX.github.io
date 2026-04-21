@@ -1,17 +1,14 @@
 - title: Master of Science, Ontario Tech University
   from: 2023
   to: 2026
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
+  description: I completed my Master of Science in Computer Science, with a specialty in Digital Media. Specifically, my research was focused on haptics. I created the SIGHTT software to improve how haptics could be prototyped.
+               I also ran studies with my software to discover how developers could potentially make use of haptic technology in their games, and how this could change their thought processes.
+               The full thesis is posted in the projects tab, if you are interested in learning more. Additionally I served as a Teaching Assistant while I was enrolled, so
+               I have a lot of experience teaching about a variety of Game Development related topics.
+    
 - title: Bachelor of IT, Ontario Tech University
   from: 2019
   to: 2023
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: I did my undergraduate in Game Development & Entrepreneurship. This program taught me a lot about the whole process of making games.
+               We made games using our own custom engines in C++, as well as with Unity using C#. I led many year long game projects and participated in game jams.
+               This program also led me to gain a lot of knowledge about User Research and Game Hardware, which I am still passionate about today.
